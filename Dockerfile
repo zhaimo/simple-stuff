@@ -4,3 +4,4 @@ COPY config/server.xml /config/
 COPY config/server.env /config/
 USER root
 RUN mkdir -p /my-special-folder
+COPY Dockerfile /my-special-folder/
